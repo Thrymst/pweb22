@@ -64,10 +64,9 @@ header h1 {
 
 /* Style the hero section */
 .hero {
-    background-image: url('your-background-image.jpg'); /* Specify your background image URL */
     background-size: cover;
     background-position: center;
-    color: rgb(0, 0, 0);
+    color: rgb(31, 29, 29);
     text-align: center;
     padding: 100px 0;
 }
