@@ -16,13 +16,10 @@ body {
 
 /* Style the header navigation */
 header {
-    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+    background-color: rgba(0, 0, 0, 0.8);
     color: #fff;
     padding: 20px 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 /* Logo and header styling */
@@ -45,7 +42,9 @@ header h1 {
 .menu-right {
     list-style: none;
     display: flex;
-    margin-left: auto; /* Move menu items to the right */
+    justify-content: flex-end; /* Move menu items to the right */
+    align-items: center;
+    margin-left: auto; /* Add this to ensure the right alignment */
 }
 
 .menu-right li {
@@ -130,6 +129,7 @@ header h1 {
 .feature h4, .feature p {
     color: #fff;
 }
+
 /* Style the contact section */
 .contact {
     background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
